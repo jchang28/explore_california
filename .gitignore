@@ -3,6 +3,7 @@
 
 #Named specific files.
 tempfile.txt
+tempfile2.txt
 .DS_Store
 
 #Wild card for any file that ends .zip or .gz.
