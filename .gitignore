@@ -1,0 +1,27 @@
+# This is a comment line.
+# Created 6/1/2015 -jchang
+
+#Named specific files.
+tempfile.txt
+.DS_Store
+
+#Wild card for any file that ends .zip or .gz.
+*.zip
+*.gz
+
+#Ignore any file in the log file that ends in .log.
+log/*.log
+
+#Ignore any file in the log directory, that ends in .log with a number after it.
+log/*.log.[0-9]
+
+#Ignore all files in the assets/photoshop directory, Remember the ending SLASH!
+assets/photoshop/
+
+assets/videos/
+
+#the ! means do not ignore.
+!assets/videos/tour_*.mp4
+
+# Question: Would log/archive/access.log be ignore based on above?
+# Answer: No, seems like the command above does not percolate sub directory.
